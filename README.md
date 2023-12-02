@@ -17,6 +17,7 @@
   - 正規表現で特定の文字列を抽出する際、一度html上に取得したデータを表示させないと抽出ができず、処理後、アプリ下部に謎の文字列が残ってしまう仕様になってしまいました。
   - Cloud Vision API仕様の際、js/phpでの使用を試みましたがうまくいかず、最も簡単に紹介されていたPythonを用いて実装を行いました。
   - Pythonで処理を実行し、JDON形式で出力。それをjsで読み込みという処理をしましたが、最初うまくいかない箇所がありました。
+  - pdfデータも扱いたかったがjpgデータでしか処理ができない仕様になってしまった。
 
 ## 参考にした web サイトなど
 
@@ -24,3 +25,4 @@
   - https://dev.classmethod.jp/articles/google-cloud_vision-api/
   - https://note.nkmk.me/python-json-load-dump/
   - https://zenn.dev/batton/articles/bcab80c2a99c0f
+  - https://www.youtube.com/watch?v=F4oevQ-BUm8
